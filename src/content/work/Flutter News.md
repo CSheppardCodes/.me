@@ -37,7 +37,7 @@ Getting started with the Flutter News is easy. Simply clone or download the repo
 static const String _apiKey = 'YOUR_API_KEY_HERE';
 ```
 ## Screenshots 📸
-
+![App Screenshot](https://i.imgur.com/kP9vRok.mp4)
 |                                                    |                                                    |
 | -------------------------------------------------- | -------------------------------------------------- |
 | ![App Screenshot](https://i.imgur.com/YqjmFJp.png) | ![App Screenshot](https://i.imgur.com/emhLN96.png) |
