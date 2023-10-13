@@ -1,41 +1,36 @@
 ---
-title: Flutter News 📰
-publishDate: 2023-02-08
+title: Calmify 📰
+publishDate: 2023-10-13
 img: /assets/flutter-news.webp
-img_alt: A screenshot of the Flutter News app
+img_alt: Calmify web UI demo screenshot
 description: |
-  A Flutter app that allows users to view the latest news from various countries.
+  Manage anxiety and relax with calming images and inspiring quotes. 1st Place Hackathon Winner.
 tags:
-  - Flutter
-  - Dart
-  - API
-  - Web View
+  - Flask
+  - OpenAI API
+  - AWS Sagemaker
+  - Python
 ---
-### Flutter News: A Flutter App for Keeping Up with the Latest News
+### Calmify: - Anxiety Managment Web App
 
-In today's fast-paced world, staying informed about the latest news is crucial. Whether it's politics, sports, entertainment, or technology, it's important to know what's happening around the world. With the Flutter News app, you can do just that! This app is designed to help you keep up with the latest news from various countries using the [NewsAPI](https://newsapi.org/).
+Our app aims to instantly calm the mind for those suffering from extreme anxiety and panic attacks.
 
-The Flutter News is a Flutter app that allows users to view the latest news from various countries. It's simple to use and has a clean and attractive design. The app has two main features:
+We use StyleGAN technology to generate a constant flow of calming images in an innovative way to provide visual support for these practices and help users find relaxation and peace. By focusing on these soothing visuals and messages, users can relax their minds and ease their worries, whether they are experiencing an anxiety attack or simply seeking a moment of tranquility. [NewsAPI](https://newsapi.org/).
+
+The Calmify app allows users to instantly calm their mind using a method called fixed point meditation. It's simple to use and has a clean and attractive design. The app has two main features:
 
 ### Features 📋
 
-1. Retrieve news from a variety of countries using the NewsAPI
-2. Display articles in a scrollable list
+1. StyleGAN-XL: an image generation model. We implimented the image sythysis model onto AWS Sagemaker to produce a 30-fps 15 second video based on user input.
+2. GPT 3.5 Turbo: a Large Language Model. We mobilized the OpenAI model to generate a calming story from user input in 5 seconds.
 
-When you open the app, you'll be taken to the home screen, where you can see a list of the latest news articles from around the world. You can scroll through the articles to find the one you're interested in. The articles are displayed with the headline, description, and source of the article.
 
-When you tap on an article, you'll be taken to a screen where you can read the full article.
+### Results 🚀
 
-**Note:** Unfortunately, viewing the full story in a web view will not work on Android due to restrictions with CORS policies.
+Our project was awarded 1st Place amongst 50 teams at HackAI by a panel of business experts. In just 24 hours our team created a flask web app with a responsive interface. Our app successfully implemented Fixed Point Meditation methodology for its user by generating calming animations with StyleGAN technology. We also gained experience with Amazon Web Services and a variety of programming languages such as Javascript. 
 
-### Getting Started 🚀
+[Flutter](https://flutter.dev/docs/get-started/install) [here](https://newsapi.org/register).  the `article_repository.dart`
 
-Getting started with the Flutter News is easy. Simply clone or download the repository to your local machine. You will need to have [Flutter](https://flutter.dev/docs/get-started/install) installed. In order to use the NewsAPI, you will need to sign up for an API key [here](https://newsapi.org/register). Once you have your API key, add it to the `article_repository.dart` file in the following line:
-
-```dart
-// TODO: Update this with your own API key
-static const String _apiKey = 'YOUR_API_KEY_HERE';
-```
 ## Screenshots 📸
 
 |                                                    |                                                    |

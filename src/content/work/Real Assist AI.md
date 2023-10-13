@@ -1,32 +1,44 @@
 ---
 title: Fracture Diagnostics YOLOv7-8 🤖
-publishDate: 2023-02-13
+publishDate: 2023-10-13
 img: /assets/TransparentFracture.webp
-img_alt: A screenshot of the RealAssist AI app
+img_alt: Model vs true values Xray
 description: |
-  A Flutter app provies a platform for users to interact with the RealAssist AI chatbot using OpenAI API.
+  Developed a custom trained object detection model with PyTorch that analyzed over 20,000 X-Ray images. Awarded 1st place by a panel of machine learning experts amongst 10 research teams.
+
 tags:
-  - Flutter
-  - Dart
-  - API
-  - Open AI
+  - Python
+  - Pytorch
+  - VOLOv7-8
+  - Artificial Intelligence
 ---
-### Real Assist AI: A Flutter App for Interacting with the RealAssist AI Chatbot
+### Using computer vision for X-Rays
 
-As I was applying for an internship at RealAssist AI, I was asked to create a Flutter app that would allow users to interact with the RealAssist AI chatbot using the OpenAI API. This app was designed to showcase my skills as a Flutter developer and to demonstrate my ability to work with APIs.
+I came up with the idea of using Computer Vision to detect X-Rays when I broke my arm and the fracture went undetected by several doctors. I wanted to research if we could incorporate AI to assist doctors make less mistakes.
 
-The RealAssist AI app is a Flutter app that provides a platform for users to interact with the RealAssist AI chatbot using the OpenAI API. It's simple to use and has a clean and attractive design. The app has two main features:
+As a Research Lead for ACM Research at UTD, I lead a team of 4 to develop AI-based pediatric wrist trauma diagnostics using Python.
 
-### Features 📋
+### YOLOv7-8 📋
 
-1. Retrieve responses from the RealAssist AI chatbot using the OpenAI API
-2. Display responses in a scrollable list
+YOLO(You Only Look Once) is an efficient and accurate object detection algorithm that uses deep
+convolutional neural networks to recognize and localize objects in an image. Unlike traditional
+object detection algorithms that require multiple passes through an image, YOLO divides the
+image into a grid and predicts the bounding boxes and class probabilities for each grid cell in a
+single pass. We used 2 models for comparison.
 
-When you open the app, you'll be taken to the home screen, where you can see a list of the latest responses from the chatbot. You can scroll through the responses to find the one you're interested in. The responses are displayed with the chatbot's response and the user's input.
 
-### Getting Started 🚀
+1. YOLOv7 is one of the latest releases of YOLO, around 120% faster than previous
+iterations held at the same accuracy.
+2. YOLOv8 was released very recently, with 5 versions being available of different sizes, we use the smallest model ’yolov8n’ due to larger ones requiring
+greater computational power + longer training times.
 
-Getting started with the RealAssist AI is easy. Simply clone or download the repository to your local machine. You will need to have [Flutter](https://flutter.dev/docs/get-started/install) installed. In order to use the OpenAI API, you will need to sign up for an API key [here](https://platform.openai.com/account/api-keys). Once you have your API key, add it to the `main.dart`.
+
+### Results 🚀
+
+We achieved remarkable precision where
+90% of fractures were identified, the rest unclassified. The model also found metal objects with great accuracy. This model often outperformed Doctors in an night ER setting where human error is increased. 
+
+After presenting our results in the ACM Research Symposium our research project was awarded 1st place by a panel of machine learning experts amongst 10 research teams.
 
 Here is the link to the [repository](https://github.com/CShepppardCodes)
 
