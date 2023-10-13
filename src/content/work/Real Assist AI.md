@@ -1,7 +1,7 @@
 ---
-title: Real Assist AI 🤖
+title: Fracture Diagnostics YOLOv7-8 🤖
 publishDate: 2023-02-13
-img: /assets/real-assist-ai.webp
+img: /assets/TransparentFracture.webp
 img_alt: A screenshot of the RealAssist AI app
 description: |
   A Flutter app provies a platform for users to interact with the RealAssist AI chatbot using OpenAI API.
@@ -32,4 +32,4 @@ Here is the link to the [repository](https://github.com/CShepppardCodes)
 
 ## Screenshots 📸
 
-<img src="https://i.imgur.com/Fww7NG0.png" alt="App Screenshot" width="400" height="800" />
+<img src="https://i.imgur.com/4MkQP7d.png" alt="Results Screenshot" width="400" height="800" />
