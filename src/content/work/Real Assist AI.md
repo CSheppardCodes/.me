@@ -1,5 +1,5 @@
 ---
-title: Fracture Diagnostics YOLOv7-8 🤖
+title: Fracture Detection 🤖
 publishDate: 2023-10-13
 img: /assets/TransparentFracture.webp
 img_alt: Model vs true values Xray
