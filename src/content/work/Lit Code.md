@@ -1,17 +1,17 @@
 ---
-title: Lit Code App 🔥
-publishDate: 2023-02-01
-img: /assets/lit-code.webp
-img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
+title: Translator Web App 🔥
+publishDate: 2023-10-15
+img: /assets/langportalUI.webp
+img_alt: NLP WebUI
 description: |
   Design and developed a Flutter app for practicing and keeping track of coding questions across platforms
 tags:
-  - Flutter
-  - Dart
-  - BLoC
+  - Natural Language Processing
+  - Transformers
+  - Python
   - Firebase
 ---
-### LitCode App: A Journey in Mobile App Development
+### LangPortal App: English-Spanish Translator
 
 ##### November 2022 - Present
 
