@@ -4,43 +4,51 @@ publishDate: 2023-10-15
 img: /assets/langportalUI.webp
 img_alt: NLP WebUI
 description: |
-  Design and developed a Flutter app for practicing and keeping track of coding questions across platforms
+  Easy to use translator for learning
 tags:
-  - Natural Language Processing
+  - AWS
+  - PyTorch
   - Transformers
-  - Python
-  - Firebase
+  - Javascript
 ---
-### LangPortal App: English-Spanish Translator
+### Lang Portal App: English-Spanish Translator:
 
-##### November 2022 - Present
+Lang Portal App allows users to translate and also learn the language at the same time! It accomplishes this with a multifeature web UI.
 
-I am proud to share my experience and work on the LitCode App project. The LitCode App is a mobile application aimed at helping users learn algorithms and data structures, and prepare for their coding interviews. The project was an exciting opportunity for me to grow as a software developer and challenge myself to create a functional, user-friendly app.
+#### Features:
+- [x] English to Spanish Translation
+- [x] Text-to-Speech
+- [x] Speech-to-Text
+- [x] Highlighted Word Definitions
 
-### Design and Programming with Dart and Flutter
+By highlighting words you can see their definition in the section below the translator.
 
-The LitCode App was designed and programmed using the Dart programming language and Flutter framework. I used the Dart programming language to write the code that powers the app, and the Flutter framework to build the user interface. With its hot reload feature, Flutter made it easy to iterate quickly on the app's design and user interface, and I was able to get instant feedback on the changes I made to the code.
+### Design and Programming with Material UI, React, and AWS Amplify:
 
-### State Management with BLoC Pattern
+The Lang Portal App was designed and programmed using the Material UI component library, the same library that Spotify, Google, and YouTube use to create an easy to use user interface. The website is programmed in HTML, JavaScript, and CSS using a React framework for a real time dynamic interface. We hosted the React front end application using AWS Amplify for efficient deployment and scaling.
 
-One of the biggest challenges I faced while developing the LitCode App was managing its state. To overcome this challenge, I implemented the BLoC (Business Logic Component) pattern as the state management system for the app. The BLoC pattern allowed me to make the app more modular, testable, and maintainable, making it easier for me to manage its state and add new features in the future.
+### Cloud Architecture:
 
-### Encouraging User Progress with Analytics and Statistics
+We used a series of Amazon web services starting with Amplify where our website is hosted. We then use an HTTP Post method which will send our input to the Amazon API Gateway. This will handle our Post request data and route it to our Lambda function which is static python code that is hosted inside AWS. That code will call our model via the SageMaker endpoint and it will predict what our input will be in Spanish.
 
-To encourage users to track their progress and achieve their learning goals, I implemented a variety of statistics and analytics features into the LitCode App. These features include confidence levels, activity heat maps, and progress tracking. These features provide users with the information they need to monitor their progress and stay motivated.
+### Transformer Model:
+We custom trained a HuggingFace Transformer model from on a KDE4 english and spanish dateset. 
 
-### Secure and Accessible Data Storage with Firebase and Hive
+1. We start with an input that goes into our transformer and inside of the Transformer we have an encoder and a decoder. 
+2. The encoder will take in the inputs, tokenize them, and send them to the decoder which will then make predictions on what it thinks the phrase should be. 
 
-Data storage and retrieval are critical components of any app. To ensure that user-generated data was stored securely and could be easily accessed across multiple devices and platforms, I integrated Firebase real-time database with API calls. I also utilized Hive for local storage, which increased the accessibility and retrieval of user data across multiple devices.
+### Find out more:
 
-### Conclusion
+Here is the link to the [WebUI](https://bluestarburst.github.io/LangPortal/)
 
-Working on the LitCode App project was a valuable learning experience for me. I was able to apply my technical skills and work with a team of talented individuals to create a functional and user-friendly app. I am proud of what we were able to accomplish, and I look forward to continued growth and development in my career as a software developer.
+***Note:*** The website used Amazon Web Services (aka cost money). This is a link to the UI.
+
+A recording of the demo is available [Here](https://www.youtube.com/live/HAyAWdbnM7g?feature=share&t=10355)
 
 
 ### Screenshots
-
-### Version 2 - Work in progress
+(https://img.youtube.com/vi/HAyAWdbnM7g/maxresdefault.jpg)
+![image](https://github.com/BlueStarBurst/LangPortal/assets/78242653/6447b447-1446-453b-9896-f753da7ccb14)
 
 | Dark Theme                                         | Light Theme                                        |
 | -------------------------------------------------- | -------------------------------------------------- |
