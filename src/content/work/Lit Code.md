@@ -1,7 +1,7 @@
 ---
 title: Translator Web App 🔥
 publishDate: 2023-10-15
-img: /assets/langportalUI.webp
+img: /assets/LangportalMockup.webp
 img_alt: NLP WebUI
 description: |
   Easy to use translator for learning
