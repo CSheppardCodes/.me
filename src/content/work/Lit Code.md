@@ -13,7 +13,7 @@ tags:
 ---
 ### Lang Portal App: English-Spanish Translator:
 
-Lang Portal App allows users to translate and also learn the language at the same time! It accomplishes this with a multifeature web UI.
+Lang Portal App allows users to translate and learn the language at the same time! It accomplishes this with a multi-feature web UI.
 
 #### Features:
 - [x] English to Spanish Translation
@@ -21,33 +21,31 @@ Lang Portal App allows users to translate and also learn the language at the sam
 - [x] Speech-to-Text
 - [x] Highlighted Word Definitions
 
-By highlighting words you can see their definition in the section below the translator.
-
 ### Design and Programming with Material UI, React, and AWS Amplify:
 
-The Lang Portal App was designed and programmed using the Material UI component library, the same library that Spotify, Google, and YouTube use to create an easy to use user interface. The website is programmed in HTML, JavaScript, and CSS using a React framework for a real time dynamic interface. We hosted the React front end application using AWS Amplify for efficient deployment and scaling.
+The Lang Portal App was designed and programmed using the Material UI component library, the same library that Spotify, Google, and YouTube use to create an easy-to-use user interface. The website is programmed in HTML, JavaScript, and CSS using a React framework for a real-time dynamic interface. We hosted the React front-end application using AWS Amplify for efficient deployment and scaling.
 
 ### Cloud Architecture:
 
-We used a series of Amazon web services starting with Amplify where our website is hosted. We then use an HTTP Post method which will send our input to the Amazon API Gateway. This will handle our Post request data and route it to our Lambda function which is static python code that is hosted inside AWS. That code will call our model via the SageMaker endpoint and it will predict what our input will be in Spanish.
+We used a series of Amazon web services starting with Amplify where our website is hosted. We then use an HTTP Post method which will send our input to the Amazon API Gateway. This will handle our post-request data and route it to our Lambda function which is staticPythonn code that is hosted inside AWS. That code will call our model via the SageMaker endpoint and it will predict what our input will be in Spanish.
 
 ### Transformer Model:
-We custom trained a HuggingFace Transformer model from on a KDE4 english and spanish dateset. 
+We custom-trained a HuggingFace Transformer model from a KDE4 English and Spanish dataset.
 
 1. We start with an input that goes into our transformer and inside of the Transformer we have an encoder and a decoder. 
 2. The encoder will take in the inputs, tokenize them, and send them to the decoder which will then make predictions on what it thinks the phrase should be. 
 
 ### Find out more:
 
-Here is the link to the [WebUI](https://bluestarburst.github.io/LangPortal/)
+Link to our custom [Model](https://huggingface.co/zainnaved/marian-finetuned-kde4-en-to-es) hosted on HuggingFace.com 
+Link to [Demo](https://www.youtube.com/live/HAyAWdbnM7g?feature=share&t=10355) presentation
+Link to the [WebUI](https://bluestarburst.github.io/LangPortal/)
 
-***Note:*** The website used Amazon Web Services (aka cost money). This is a link to the UI.
-
-A recording of the demo is available [Here](https://www.youtube.com/live/HAyAWdbnM7g?feature=share&t=10355)
+***Note:*** Website's functionality is inactive due to the cost associated with using Amazon Web Services.
 
 
 ### Screenshots
-(https://img.youtube.com/vi/HAyAWdbnM7g/maxresdefault.jpg)
+![image](https://img.youtube.com/vi/HAyAWdbnM7g/maxresdefault.jpg)
 ![image](https://github.com/BlueStarBurst/LangPortal/assets/78242653/6447b447-1446-453b-9896-f753da7ccb14)
 
 | Dark Theme                                         | Light Theme                                        |
