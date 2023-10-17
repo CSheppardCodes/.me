@@ -1,7 +1,7 @@
 ---
 title: Calmify 📰
 publishDate: 2023-10-13
-img: /assets/imagemockup2.webp
+img: /assets/calmifymockup.webp
 img_alt: Calmify web UI demo screenshot
 description: |
   Manage anxiety and relax with calming images and inspiring quotes. 1st Place Hackathon Winner.
