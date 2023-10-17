@@ -37,19 +37,15 @@ We custom-trained a HuggingFace Transformer model from a KDE4 English and Spanis
 
 ### Find out more:
 
-Link to our custom [Model](https://huggingface.co/zainnaved/marian-finetuned-kde4-en-to-es) hosted on HuggingFace.com 
-Link to [Demo](https://www.youtube.com/live/HAyAWdbnM7g?feature=share&t=10355) presentation
-Link to the [WebUI](https://bluestarburst.github.io/LangPortal/)
+1. Link to our custom [Model](https://huggingface.co/zainnaved/marian-finetuned-kde4-en-to-es) hosted on HuggingFace.com
+
+2. Link to [Demo](https://www.youtube.com/live/HAyAWdbnM7g?si=lzKCAhY4GJ7BqgQJ&t=10296) presentation
+
+3. Link to the [WebUI](https://bluestarburst.github.io/LangPortal/)
+
+4. Link to the [GitHub](https://github.com/BlueStarBurst/LangPortal)
 
 ***Note:*** Website's functionality is inactive due to the cost associated with using Amazon Web Services.
 
-
 ### Screenshots
-![image](https://img.youtube.com/vi/HAyAWdbnM7g/maxresdefault.jpg)
 ![image](https://github.com/BlueStarBurst/LangPortal/assets/78242653/6447b447-1446-453b-9896-f753da7ccb14)
-
-| Dark Theme                                         | Light Theme                                        |
-| -------------------------------------------------- | -------------------------------------------------- |
-| ![App Screenshot](https://i.imgur.com/668wAGk.png) | ![App Screenshot](https://i.imgur.com/Swmw9Q6.png) |
-| ![App Screenshot](https://i.imgur.com/R5vegHT.png) | ![App Screenshot](https://i.imgur.com/c12HsSL.png) |
-| ![App Screenshot](https://i.imgur.com/PhdSYng.png) | ![App Screenshot](https://i.imgur.com/FRwotIL.png) |
