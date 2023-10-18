@@ -1,7 +1,7 @@
 ---
 title: Emotion Detection 🍩
 publishDate: 2023-10-17
-img: /assets/EmotionDetectionUI.webp
+img: /assets/MockupEmotion7.webp
 img_alt: Emotion Detection UI
 description: |
     Developed a Real time Emotion Detection Web App using Convolutional Neural Networks
