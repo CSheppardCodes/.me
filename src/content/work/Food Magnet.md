@@ -1,39 +1,38 @@
 ---
-title: Food Magnet Admin 🍩
-publishDate: 2023-02-01
-img: /assets/food-magnet.webp
-img_alt: A collages of websites screenshots of the Food Magnet Admin
+title: Emotion Detection 🍩
+publishDate: 2023-10-17
+img: /assets/EmotionDetectionUI.webp
+img_alt: Emotion Detection UI
 description: |
-    Developed a admin dashboard for the Food Magnet app using Vuejs.
+    Developed a Real time Emotion Detection Web App using Convolutional Neural Networks
 tags:
-  - Web Design
-  - Vuejs
-  - Teamwork
-  - Agile/Scrum
+  - AWS Sagemaker
+  - ReactJS
+  - TensorFlow
+  - JavaScript
 ---
 
-### Enhancing the User Experience at Food Magnet as a Software Engineer Intern
+### Purpose of the Emotion Detection
 
-During my time as a software engineer intern at Food Magnet in Dallas, Texas, I had the opportunity to work on a project that aimed to improve the admin portion of the Food Magnet app. As a part of the development team, I was tasked with developing and implementing user interfaces that would make the admin view panel user-friendly, responsive, and scalable, while providing all the necessary information that the admins needed to perform their duties effectively.
+Analyzing the emotions of crowds with thousands of people is close to impossible because of the sheer amount of people. The purpose of this project is to train a model that will be able to tackle this problem. This project could be extremely useful during a Zoom call to track engagement, concerts, and events to track fan enjoyment and much more.
 
-### Developing User Interfaces with VueJS 
+### Data
 
-I was responsible for developing user interfaces for the admin portion of the Food Magnet app using the VueJS framework. The features I implemented included subscription levels, login information, and food truck statistics/metrics. The goal was to make sure that the admin view panel was not only functional, but also visually appealing.
+We got our data from the "Face expression recognition dataset" on Kaggle. This dataset contains 35,900 different images classified into 7 different emotions [Happy, Sad, Angry, Neutral, Suprise, Disgust, Fear].
 
-### Ensuring User-Friendliness and Responsiveness 
+### Hyper Parameter Tuning
 
-I worked closely with the development team to ensure that the admin view panel was user-friendly, responsive, and scalable. This involved conducting regular user testing and feedback sessions to gather insights on how to improve the app's functionality and usability. I also reviewed and optimized team members' code to reduce redundancy and improve responsiveness across devices.
+We chose to use the Keras-Tuner Python Library to tune our hyperparameters.
+The main parameters that we chose to tune are:
+* Dropouts percents
+* Number of Filters of the third and fourth Conv2d Layer 
+* Number of Units on all the Dense Layers
 
-### Improving Website Loading Speed and User Experience 
 
-As a result of my efforts to improve the code, we were able to achieve a 35% increase in website loading speed and enhanced user experience. This was a significant accomplishment that helped to improve the overall satisfaction of the users.
+### Accuracy
 
-### Collaborating with Project Managers and Designers
+The accuracy of our model came out to total accuracy ***65%*** which is impressive compared to humans who can correctly assess emotion ***72%*** of the time.
 
-In addition to working with the development team, I also collaborated with project managers and designers to ensure that the app met the requirements and deadlines of the project. I provided regular updates and feedback on progress, which allowed us to make necessary changes in real-time and keep the project on track.
+### Screenshots
 
-### Working in a Fast-Paced Agile Environment
-
-The Food Magnet project was developed using a fast-paced agile scrum project development environment. This required daily standup meetings and weekly sprint retrospectives to track progress and identify areas for improvement. As a team player, I participated in team-building activities and technical workshops to improve communication and collaboration among team members.
-
-In conclusion, my time as a software engineer intern at Food Magnet was a valuable learning experience that allowed me to grow both professionally and personally. I am grateful for the opportunity to have worked on a project that had a positive impact on the user experience, and I am eager to continue developing my skills and making a difference in the world of software engineering.
+In progress
