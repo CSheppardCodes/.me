@@ -1,5 +1,5 @@
 ---
-title: Calmify 📰
+title: Calmify 🌅
 publishDate: 2023-10-13
 img: /assets/calmifymockup.webp
 img_alt: Calmify web UI demo screenshot

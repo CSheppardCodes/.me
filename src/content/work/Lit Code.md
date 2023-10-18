@@ -1,5 +1,5 @@
 ---
-title: Translator Web App 🔥🌍
+title: Translator Web App 🌍
 publishDate: 2023-10-15
 img: /assets/LangportalMockup.webp
 img_alt: NLP WebUI

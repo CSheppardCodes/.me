@@ -1,5 +1,5 @@
 ---
-title: Emotion Detection 🍩😄
+title: Emotion Detection 😄
 publishDate: 2023-10-17
 img: /assets/MockupEmotion7.webp
 img_alt: Emotion Detection UI

@@ -1,5 +1,5 @@
 ---
-title: Fracture Detection 🤖🦴
+title: Fracture Detection 🦴
 publishDate: 2023-10-13
 img: /assets/TransparentFracture.webp
 img_alt: Model vs true values Xray
